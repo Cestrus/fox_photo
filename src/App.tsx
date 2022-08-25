@@ -1,18 +1,14 @@
 import React from 'react';
 
 import './App.css';
-import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
-import Logo from './components/Logo/Logo';
+import { Footer } from './components/index';
+import { Header } from './components/index';
 
 const App = (): JSX.Element => {
   return (
     <div className='App'>
       <Header />
-      <main>
-        <Logo type='header' />
-        <Logo type='footer' />
-      </main>
+      <main></main>
       <Footer />
     </div>
   );

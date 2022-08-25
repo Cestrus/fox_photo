@@ -1,0 +1,25 @@
+.social {
+  cursor: pointer;
+
+  width: 48px;
+  height: 48px;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.vc {
+  background-image: url('./ico/vk.png');
+}
+
+.vc:hover {
+  background-image: url('./ico/vk_hover.png');
+}
+
+.insta {
+  background-image: url('./ico/insta.png');
+}
+
+.insta:hover {
+  background-image: url('./ico/insta_hover.png');
+}

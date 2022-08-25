@@ -1,0 +1,8 @@
+.group {
+  width: 100%;
+  height: 100%;
+
+  background-image: url('./Group.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}

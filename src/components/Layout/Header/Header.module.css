@@ -1,0 +1,11 @@
+.header {
+  width: 100%;
+
+  background-color: var(--color-white);
+}
+
+/* @media screen and (width < 768px) {
+  .header {
+    height: 65px;
+  }
+} */

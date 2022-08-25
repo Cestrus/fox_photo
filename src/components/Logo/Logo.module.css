@@ -1,0 +1,16 @@
+.logo {
+  width: 245px;
+  height: 90px;
+}
+
+.logo_footer {
+  width: 275px;
+  height: 46px;
+}
+
+@media screen and (width < 768px) {
+  .logo {
+    width: 100px;
+    height: 37px;
+  }
+}
