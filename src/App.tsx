@@ -1,14 +1,16 @@
 import React from 'react';
 
 import './App.css';
-import { Footer } from './components/index';
-import { Header } from './components/index';
+import { Footer, Header, Banner, Hello } from './components/index';
 
 const App = (): JSX.Element => {
   return (
     <div className='App'>
       <Header />
-      <main></main>
+      <main>
+        <Banner />
+        <Hello />
+      </main>
       <Footer />
     </div>
   );
