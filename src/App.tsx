@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './App.css';
-import { Footer, Header, Banner, Hello } from './components/index';
+import { Footer, Header, Banner, Hello, Seo } from './components/index';
 
 const App = (): JSX.Element => {
   return (
@@ -10,6 +10,7 @@ const App = (): JSX.Element => {
       <main>
         <Banner />
         <Hello />
+        <Seo />
       </main>
       <Footer />
     </div>

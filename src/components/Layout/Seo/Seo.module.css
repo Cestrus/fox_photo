@@ -1,0 +1,38 @@
+.seo {
+  width: 100%;
+  height: 700px;
+  padding: 16px;
+
+  background-color: var(--color-white);
+}
+
+.description {
+  margin-top: 40px;
+}
+
+p {
+  margin-bottom: 40px;
+
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media screen and (width < 992px) {
+  .description {
+    margin-top: 0;
+  }
+}
+
+@media screen and (width < 768px) {
+  p {
+    display: none;
+  }
+
+  h4 {
+    display: none;
+  }
+
+  .description {
+    display: inline-block;
+  }
+}
